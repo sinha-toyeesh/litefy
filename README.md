@@ -13,7 +13,7 @@ The project is being designed with Angular 10, using the [Spotify API](https://d
 
 Run `npm install` && `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-# If you run into problems like "ERR_OSSL_EVP_UNSUPPORTED" error when using the ng serve or the ng build command, try using an older version of node (< 17) as this could be due an application or a module we’re using is attempting to use an algorithm or key size which is no longer allowed by default with OpenSSL 3.0, after the new update.
+### If you run into problems like "ERR_OSSL_EVP_UNSUPPORTED" error when using the ng serve or the ng build command, try using an older version of node (< 17) as this could be due an application or a module we’re using is attempting to use an algorithm or key size which is no longer allowed by default with OpenSSL 3.0, after the new update.
 
 ## Code scaffolding
 
